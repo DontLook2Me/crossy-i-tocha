@@ -163,3 +163,18 @@ ul a {
   color: #121723;
   ;
 }
+.sneaker:hover {
+  animation-name: up;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes up {
+  from {
+      margin-top: 0;
+  }
+
+  to {
+      margin-top: -20px;
+  }
+}
+
