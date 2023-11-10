@@ -163,7 +163,7 @@ ul a {
   color: #121723;
   ;
 }
-.sneaker:hover {
+.sneaker_animation:hover {
   animation-name: up;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
