@@ -49,6 +49,11 @@ h2 {
 
 .sneaker {
   width: 371px;
+  border-radius: 5%;
+
+}
+.sneaker_image{
+  border-radius: 5%;
 }
 
 h3 {
@@ -147,6 +152,7 @@ ul a {
   margin: 0 auto;
     width: 95%;
     max-width: 1440px;
+    
 }
 .card_cantainer img {
   width: 370px;
@@ -166,6 +172,7 @@ ul a {
   color: #121723;
   ;
 }
+
 .sneaker_animation:hover {
   animation-name: up;
   animation-duration: 0.5s;
@@ -213,6 +220,12 @@ width: 375px;
   .main{
     width:375px;
 padding: 0px, 16px, 0px, 16px;
+  }
+  .sneaker{
+    max-width: 343px;
+  }
+  .sneaker_image{
+    max-width: 343px;
   }
   .header {
     width:375px;
